@@ -1,3 +1,4 @@
+import numpy as np
 class Node:
     def __init__(self, elem, next=None):
         self.elem, self.next = elem, next
